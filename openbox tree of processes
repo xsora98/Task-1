@@ -1,0 +1,224 @@
+sora@sora-Inspiron-15-3567:~$ pstree -p
+systemd(1)─┬─ModemManager(536)─┬─{ModemManager}(579)
+           │                   └─{ModemManager}(594)
+           ├─NetworkManager(599)─┬─dhclient(991)
+           │                     ├─{NetworkManager}(727)
+           │                     └─{NetworkManager}(735)
+           ├─accounts-daemon(592)─┬─{accounts-daemon}(620)
+           │                      └─{accounts-daemon}(623)
+           ├─acpid(546)
+           ├─agetty(836)
+           ├─applet.py(1362)───{applet.py}(1446)
+           ├─at-spi-bus-laun(1368)─┬─dbus-daemon(1385)
+           │                       ├─{at-spi-bus-laun}(1376)
+           │                       ├─{at-spi-bus-laun}(1378)
+           │                       └─{at-spi-bus-laun}(1383)
+           ├─at-spi2-registr(1394)─┬─{at-spi2-registr}(1398)
+           │                       └─{at-spi2-registr}(1399)
+           ├─avahi-daemon(541)───avahi-daemon(568)
+           ├─blueman-applet(1375)─┬─{blueman-applet}(1424)
+           │                      ├─{blueman-applet}(1426)
+           │                      └─{blueman-applet}(1435)
+           ├─bluetoothd(1199)
+           ├─colord(1183)─┬─{colord}(1184)
+           │              └─{colord}(1186)
+           ├─cron(551)
+           ├─cups-browsed(614)─┬─{cups-browsed}(723)
+           │                   └─{cups-browsed}(724)
+           ├─cupsd(593)
+           ├─dbus-daemon(553)
+           ├─deja-dup-monito(1386)─┬─{deja-dup-monito}(1410)
+           │                       ├─{deja-dup-monito}(1411)
+           │                       └─{deja-dup-monito}(1414)
+           ├─gnome-keyring-d(1256)─┬─{gnome-keyring-d}(1257)
+           │                       └─{gnome-keyring-d}(1258)
+           ├─irqbalance(601)───{irqbalance}(629)
+           ├─kerneloops(1225)
+           ├─kerneloops(1228)
+           ├─lightdm(795)─┬─Xorg(832)─┬─{Xorg}(946)
+           │              │           ├─{Xorg}(949)
+           │              │           ├─{Xorg}(950)
+           │              │           ├─{Xorg}(951)
+           │              │           ├─{Xorg}(952)
+           │              │           ├─{Xorg}(953)
+           │              │           ├─{Xorg}(954)
+           │              │           ├─{Xorg}(955)
+           │              │           ├─{Xorg}(964)
+           │              │           ├─{Xorg}(966)
+           │              │           └─{Xorg}(1052)
+           │              ├─lightdm(1187)─┬─openbox(1259)─┬─firefox(1495)─┬─RDD+
+           │              │               │               │               ├─Web+
+           │              │               │               │               ├─Web+
+           │              │               │               │               ├─Web+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               ├─{fi+
+           │              │               │               │               └─{fi+
+           │              │               │               ├─ssh-agent(1327)
+           │              │               │               ├─{openbox}(1338)
+           │              │               │               └─{openbox}(1339)
+           │              │               ├─{lightdm}(1236)
+           │              │               └─{lightdm}(1237)
+           │              ├─{lightdm}(813)
+           │              └─{lightdm}(815)
+           ├─networkd-dispat(547)───{networkd-dispat}(722)
+           ├─nm-applet(1380)─┬─{nm-applet}(1392)
+           │                 ├─{nm-applet}(1393)
+           │                 └─{nm-applet}(1408)
+           ├─polkitd(619)─┬─{polkitd}(632)
+           │              └─{polkitd}(637)
+           ├─pulseaudio(1403)─┬─{pulseaudio}(1470)
+           │                  └─{pulseaudio}(1471)
+           ├─rsyslogd(545)─┬─{rsyslogd}(584)
+           │               ├─{rsyslogd}(585)
+           │               └─{rsyslogd}(586)
+           ├─rtkit-daemon(1153)─┬─{rtkit-daemon}(1156)
+           │                    └─{rtkit-daemon}(1157)
+           ├─snapd(602)─┬─{snapd}(668)
+           │            ├─{snapd}(669)
+           │            ├─{snapd}(670)
+           │            ├─{snapd}(671)
+           │            ├─{snapd}(672)
+           │            ├─{snapd}(733)
+           │            ├─{snapd}(736)
+           │            ├─{snapd}(738)
+           │            ├─{snapd}(817)
+           │            ├─{snapd}(818)
+           │            ├─{snapd}(856)
+           │            ├─{snapd}(865)
+           │            ├─{snapd}(866)
+           │            └─{snapd}(963)
+           ├─systemd(1239)─┬─(sd-pam)(1240)
+           │               ├─dbus-daemon(1274)
+           │               ├─gnome-terminal-(1747)─┬─bash(1779)───pstree(1788)
+           │               │                       ├─{gnome-terminal-}(1748)
+           │               │                       ├─{gnome-terminal-}(1749)
+           │               │                       ├─{gnome-terminal-}(1750)
+           │               │                       └─{gnome-terminal-}(1777)
+           │               ├─goa-daemon(1450)─┬─{goa-daemon}(1452)
+           │               │                  ├─{goa-daemon}(1454)
+           │               │                  └─{goa-daemon}(1455)
+           │               ├─goa-identity-se(1458)─┬─{goa-identity-se}(1459)
+           │               │                       ├─{goa-identity-se}(1460)
+           │               │                       └─{goa-identity-se}(1461)
+           │               ├─gvfs-afc-volume(1429)─┬─{gvfs-afc-volume}(1430)
+           │               │                       ├─{gvfs-afc-volume}(1431)
+           │               │                       └─{gvfs-afc-volume}(1433)
+           │               ├─gvfs-goa-volume(1445)─┬─{gvfs-goa-volume}(1447)
+           │               │                       └─{gvfs-goa-volume}(1448)
+           │               ├─gvfs-gphoto2-vo(1434)─┬─{gvfs-gphoto2-vo}(1436)
+           │               │                       └─{gvfs-gphoto2-vo}(1438)
+           │               ├─gvfs-mtp-volume(1441)─┬─{gvfs-mtp-volume}(1442)
+           │               │                       └─{gvfs-mtp-volume}(1444)
+           │               ├─gvfs-udisks2-vo(1422)─┬─{gvfs-udisks2-vo}(1423)
+           │               │                       └─{gvfs-udisks2-vo}(1425)
+           │               ├─gvfsd(1340)─┬─{gvfsd}(1341)
+           │               │             └─{gvfsd}(1342)
+           │               ├─gvfsd-fuse(1345)─┬─{gvfsd-fuse}(1348)
+           │               │                  ├─{gvfsd-fuse}(1349)
+           │               │                  ├─{gvfsd-fuse}(1350)
+           │               │                  ├─{gvfsd-fuse}(1351)
+           │               │                  └─{gvfsd-fuse}(1352)
+           │               ├─obexd(1466)
+           │               ├─xdg-desktop-por(1751)─┬─{xdg-desktop-por}(1753)
+           │               │                       ├─{xdg-desktop-por}(1754)
+           │               │                       ├─{xdg-desktop-por}(1769)
+           │               │                       └─{xdg-desktop-por}(1780)
+           │               ├─xdg-desktop-por(1770)─┬─{xdg-desktop-por}(1771)
+           │               │                       ├─{xdg-desktop-por}(1772)
+           │               │                       └─{xdg-desktop-por}(1773)
+           │               ├─xdg-document-po(1756)─┬─{xdg-document-po}(1757)
+           │               │                       ├─{xdg-document-po}(1758)
+           │               │                       ├─{xdg-document-po}(1763)
+           │               │                       ├─{xdg-document-po}(1766)
+           │               │                       ├─{xdg-document-po}(1767)
+           │               │                       └─{xdg-document-po}(1768)
+           │               └─xdg-permission-(1759)─┬─{xdg-permission-}(1760)
+           │                                       ├─{xdg-permission-}(1761)
+           │                                       └─{xdg-permission-}(1762)
+           ├─systemd-journal(318)
+           ├─systemd-logind(598)
+           ├─systemd-resolve(528)
+           ├─systemd-timesyn(527)───{systemd-timesyn}(533)
+           ├─systemd-udevd(344)
+           ├─thermald(548)───{thermald}(646)
+           ├─udisksd(600)─┬─{udisksd}(643)
+           │              ├─{udisksd}(645)
+           │              ├─{udisksd}(715)
+           │              └─{udisksd}(744)
+           ├─unattended-upgr(788)───{unattended-upgr}(851)
+           ├─update-notifier(1390)─┬─{update-notifier}(1404)
+           │                       ├─{update-notifier}(1405)
+           │                       └─{update-notifier}(1406)
+           ├─upowerd(1164)─┬─{upowerd}(1165)
+           │               └─{upowerd}(1166)
+           ├─whoopsie(1222)─┬─{whoopsie}(1230)
+           │                └─{whoopsie}(1232)
+           └─wpa_supplicant(591)
