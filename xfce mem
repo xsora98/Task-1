@@ -1,0 +1,4 @@
+sora@sora-Inspiron-15-3567:~$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           7750        1260        5256         184        1234        6051
+Swap:          1619           0        1619
